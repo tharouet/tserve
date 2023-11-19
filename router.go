@@ -6,7 +6,7 @@ type Router struct {
 	Router *http.ServeMux
 }
 
-func NewRouter() (r *Router) {
+func NewRouter() (r Router) {
 	r.Router = http.NewServeMux()
 	return
 }
